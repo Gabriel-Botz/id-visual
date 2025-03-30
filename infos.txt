@@ -1,0 +1,8 @@
+cor: hsl(25, 25%, 31%);
+
+fontes: Open Sauce Light
+Fira Code Light 
+JetBrains Mono Light
+IBM Plex Mono Light
+Source Code Pro Light
+Inconsolata Light

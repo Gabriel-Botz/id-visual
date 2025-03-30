@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap");
+
+body {
+  height: 100vh;
+  font-family: "Fira Code";
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/src/img/fundo.png);
+  background-size: cover;
+}
+
+.cartao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 620px;
+  width: 330px;
+  position: relative;
+  flex-direction: column;
+}
+
+.cartao img {
+  height: 700px;
+  position: relative;
+
+}
+
+.topo {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 250px;
+  top: 10px;
+  display: flex;
+}
+
+.topo img {
+  height: 100%;
+  width: 100%;
+}
+
+.meio {
+  display: flex;
+  position: absolute;
+  height: 330px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+
+footer {
+    display: flex;
+    position: absolute;
+    color: #fff;
+  bottom: 50px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 800;
+}
+
+.btn {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  padding: 15px;  
+  
+}
+
+a:hover {
+  color: hsl(25, 25%, 31%);
+  border-radius: 10px;
+  transition: color 0.5s ease-in-out, opacity 0.3s ease-in-out;
+}
