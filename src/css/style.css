@@ -10,7 +10,7 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background-image: url(/src/img/fundo.png);
+  background-image: url(../img/fundo.png);
   background-size: cover;
 }
 
